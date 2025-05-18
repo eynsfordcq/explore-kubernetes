@@ -1,5 +1,8 @@
 # kustomize
 
+## References
+- https://www.youtube.com/watch?v=spCdNeNCuFU
+
 ## commonLabels, commonAnnotations, namePrefix and nameSuffix
 - By defining commonLabels, commonAnnotations, etc in kustomization.yaml, we can reduce redundancy and have a consistent definition.
 
