@@ -1,0 +1,11 @@
+resources:
+  - ../../base
+
+namespace: prod
+
+patches:
+  - path: replicas.yaml
+
+configMapGenerator:
+  - name: kustom-map
+    env: config.properties
